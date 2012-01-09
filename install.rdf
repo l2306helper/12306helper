@@ -3,10 +3,10 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
         <em:type>2</em:type> <!-- 2 : Extension -->
-        <em:id>l2306helper@gmail.com</em:id>
+        <em:id>l2306helper@163.com</em:id>
         <em:version>0.1</em:version>
         <em:name>l2306helper</em:name>
-        <em:creator>l2306helper@gmail.com</em:creator>
+        <em:creator>l2306helper@163.com</em:creator>
         <em:targetApplication>
             <Description>
                 <!-- Firefox -->
