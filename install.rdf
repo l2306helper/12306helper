@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+        <em:type>2</em:type> <!-- 2 : Extension -->
+        <em:id>l2306helper@gmail.com</em:id>
+        <em:version>0.1</em:version>
+        <em:name>l2306helper</em:name>
+        <em:creator>l2306helper@gmail.com</em:creator>
+        <em:targetApplication>
+            <Description>
+                <!-- Firefox -->
+                <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+                <em:minVersion>4.0</em:minVersion>
+                <em:maxVersion>12.0a1</em:maxVersion>
+            </Description>
+        </em:targetApplication>
+        <em:optionsURL>chrome://l2306helper/content/options.xul</em:optionsURL>
+        <em:aboutURL>chrome://l2306helper/content/about.xul</em:aboutURL>
+    </Description>
+</RDF>

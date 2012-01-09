@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://l2306helper/skin/overlay.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://l2306helper/locale/overlay.dtd">
+<overlay id="l2306helper-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="ff-overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="l2306helper-strings" src="chrome://l2306helper/locale/overlay.properties"/>
+  </stringbundleset>
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="l2306helper-toolbar-button" class="toolbarbutton-1 chromeclass-toolbar-additional"
+                   label="&l2306helperToolbarButton.label;" tooltiptext="&l2306helperToolbarButton.tooltip;"
+                   oncommand="l2306helper.onToolbarButtonCommand()"/>
+  </toolbarpalette>
+</overlay>

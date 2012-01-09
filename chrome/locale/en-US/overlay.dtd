@@ -1,0 +1,8 @@
+<!ENTITY l2306helper.label "Your localized menuitem">
+<!ENTITY l2306helperContext.label "Your Menuitem">
+<!ENTITY l2306helperContext.accesskey "Y">
+<!ENTITY l2306helperToolbarButton.label "Your Toolbar Button">
+<!ENTITY l2306helperToolbarButton.tooltip "This is your toolbar button!">
+<!ENTITY l2306helperSidebar.label "Your Sidebar">
+<!ENTITY l2306helperToolbar.name  "example">
+<!ENTITY l2306helperToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &l2306helperToolbar.name;">
