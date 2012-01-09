@@ -17,5 +17,7 @@
         </em:targetApplication>
         <em:optionsURL>chrome://l2306helper/content/options.xul</em:optionsURL>
         <em:aboutURL>chrome://l2306helper/content/about.xul</em:aboutURL>
+		<em:updateURL>http://l2306helper.github.com/12306helper/update.rdf</em:updateURL>
+		<em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDfERKayIL4jjS//6tOY7UnFdVxw4Gis7i4Fp416HqQt3yya+BAwbIbkSAXhOUiFYsds9STq20S8EgNimFo8kdiq/tvZYanMJDsHWTOD+p7h4RVdkSDy6iCC4k76nitb/n/NsxN0Gycoe850H1N3oxZafkPw8/oSyl0uRSGRNuOwwIDAQAB</em:updateKey>
     </Description>
 </RDF>
