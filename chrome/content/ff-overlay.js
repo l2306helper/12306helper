@@ -97,20 +97,10 @@ l2306helper.onFirefoxLoad = function(event) {
       return;
     }
     
-    var queryPageUrl = Application.prefs.getValue("extensions.l2306helper@gmail.com.queryPageUrl", "^$");
-    var submitPageUrl = Application.prefs.getValue("extensions.l2306helper@gmail.com.submitPageUrl", "^$");
-    var loginPageUrl = Application.prefs.getValue("extensions.l2306helper@gmail.com.loginPageUrl", "^$");
+    var pageUrl = Application.prefs.getValue("extensions.l2306helper@gmail.com.12306page", "^$");
     
-    if (new RegExp(loginPageUrl, "ig").test(view.document.location.href)) {
-      _injectJS(view, ["chrome://l2306helper/content/jquery.min.js", "chrome://l2306helper/content/12306.login.js"]);
-    }
-    
-    if (new RegExp(queryPageUrl, "ig").test(view.document.location.href)) {
-      _injectJS(view, ["chrome://l2306helper/content/jquery.min.js", "chrome://l2306helper/content/12306.login.js"]);
-    }
-    
-    if (new RegExp(submitPageUrl, "ig").test(view.document.location.href)) {
-      _injectJS(view, ["chrome://l2306helper/content/jquery.min.js", "chrome://l2306helper/content/12306.submit.js"]);
+    if (new RegExp(pageUrl, "ig").test(view.document.location.href)) {
+      _injectJS(view, ["chrome://l2306helper/content/jquery.min.js", "chrome://l2306helper/content/12306.login.js", "chrome://l2306helper/content/12306.submit.js"]);
     }
   }, false);
 };

@@ -10,6 +10,4 @@ pref("extensions.l2306helper.stringpref", "A string");
 // https://developer.mozilla.org/en/Localizing_extension_descriptions
 pref("extensions.l2306helper.description", "chrome://l2306helper/locale/overlay.properties");
 
-pref("extensions.l2306helper@gmail.com.queryPageUrl", "^http[s]?://dynamic\.12306\.cn/otsweb/order/querySingleAction\.do.*");
-pref("extensions.l2306helper@gmail.com.submitPageUrl", "^http[s]?://dynamic.12306.cn/otsweb/order/confirmPassengerAction.do.*");
-pref("extensions.l2306helper@gmail.com.loginPageUrl", "^http[s]?://dynamic.12306.cn/otsweb/login.*");
+pref("extensions.l2306helper@gmail.com.12306page", "^http[s]?://dynamic\.12306\.cn/otsweb/.*");
