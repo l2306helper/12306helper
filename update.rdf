@@ -4,24 +4,24 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <rdf:Description rdf:about="urn:mozilla:extension:l2306helper@163.com">
-    <em:signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAGLpYxbfAqL/S7iObdX+VXw+WM32nowjFj5JBkF6VOy94ptlEOaJc+wj6TFfXaK3mfZY7tMSFD6POChzrJQqOuPbLpsL+j+NDAY2R7EPSDb4hIwVrXSC+ULAcrZIs4DFwXpRc/81iilV+PN8XuuLylWC4JA3YiHORvSfQs3HX28J</em:signature>
     <em:updates>
       <rdf:Seq>
         <rdf:li>
           <rdf:Description>
-            <em:version>0.1</em:version>
             <em:targetApplication>
               <rdf:Description>
-                <em:updateHash>sha1:8596037bd37d93e149bede3098f35495754b2144</em:updateHash>
-                <em:maxVersion>12.0a1</em:maxVersion>
                 <em:minVersion>4.0</em:minVersion>
+                <em:updateLink>http://l2306helper.github.com/12306helper/12306helper-0.2.xpi</em:updateLink>
+                <em:updateHash>sha1:b2729021a98ce5961ceee7af26c0a877287cc220</em:updateHash>
                 <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-                <em:updateLink>http://l2306helper.github.com/12306helper/12306helper-0.1.xpi</em:updateLink>
+                <em:maxVersion>12.0a1</em:maxVersion>
               </rdf:Description>
             </em:targetApplication>
+            <em:version>0.2</em:version>
           </rdf:Description>
         </rdf:li>
       </rdf:Seq>
     </em:updates>
+    <em:signature>MIGTMA0GCSqGSIb3DQEBDQUAA4GBAM2prMP/UwPiHA6A//ZcZMyuAMl9N8K4xa5bD1OTbb6i/1X6ECUynjSzSinEBPz0TSq+BrU1PBnMLGKjDjRs/lyMI1mU1qca6GD8AGWLXacIay/3Wq68uKEZjTeSQwdADenn0vc1BoYx9SLEABbmbQzbCRumnPIOvcSz0U5WFH6w</em:signature>
   </rdf:Description>
 </rdf:RDF>
