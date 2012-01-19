@@ -4,7 +4,7 @@
     <Description about="urn:mozilla:install-manifest">
         <em:type>2</em:type> <!-- 2 : Extension -->
         <em:id>l2306helper@163.com</em:id>
-        <em:version>0.2</em:version>
+        <em:version>0.3</em:version>
         <em:name>l2306helper</em:name>
         <em:creator>l2306helper@163.com</em:creator>
         <em:targetApplication>
