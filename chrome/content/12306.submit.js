@@ -64,6 +64,7 @@ function _completeSeats() {
             _appendIfNotExists(seats[i], "2", "软座(不一定有)");
             _appendIfNotExists(seats[i], "3", "硬卧(不一定有)");
             _appendIfNotExists(seats[i], "4", "软卧(不一定有)");
+            _appendIfNotExists(seats[i], "6", "高级软卧(不一定有)");
         }
     }
 }
