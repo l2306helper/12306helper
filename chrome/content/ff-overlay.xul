@@ -2,7 +2,7 @@
 <?xml-stylesheet href="chrome://l2306helper/skin/overlay.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://l2306helper/locale/overlay.dtd">
 <overlay id="l2306helper-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script src="ff-overlay.js"/>
+  <script type="application/x-javascript" src="ff-overlay.js"/>
   <stringbundleset id="stringbundleset">
     <stringbundle id="l2306helper-strings" src="chrome://l2306helper/locale/overlay.properties"/>
   </stringbundleset>
